@@ -1,0 +1,18 @@
+.header {
+  padding: 2.4rem 5.5rem;
+  border-bottom: 0.1rem #f3f3f3 solid;
+}
+.header nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+.header nav ul li {
+  display: inline;
+  margin-left: 3.3rem;
+}
+
+.header nav ul li a {
+  text-decoration: none;
+  font-weight: medium;
+}
