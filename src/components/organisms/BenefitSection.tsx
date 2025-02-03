@@ -14,7 +14,7 @@ const BenefitSection = () => {
           placerat nisi, adipiscing mauris non purus parturient.
         </p>
       </div>
-      <div className="flex gap-x-[1.6rem]  ">
+      <div className="flex justify-center gap-x-[1.6rem]  ">
         {benefitDetails.map((benefit, index) => (
           <BenefitCard key={index} {...benefit} />
         ))}
