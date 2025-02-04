@@ -46,3 +46,24 @@ export const popularProductDetails = [
     price: 58.39,
   },
 ];
+
+export const testimonials = [
+  {
+    image: "/testimonialImage1.svg",
+    name: "Janne Cooper",
+    desc: "Pellentesque etiam blandit in tincidunt at donec. Eget ipsum dignissim placerat nisi, adipiscing mauris non. ",
+    rate: 3.5,
+  },
+  {
+    image: "/testimonialImage2.svg",
+    name: "Janne Cooper",
+    desc: "Pellentesque etiam blandit in tincidunt at donec. Eget ipsum dignissim placerat nisi, adipiscing mauris non. ",
+    rate: 5.5,
+  },
+  {
+    image: "/testimonialImage1.svg",
+    name: " Cobocannaeru",
+    desc: "Pellentesque etiam blandit in tincidunt at donec. Eget ipsum dignissim placerat nisi, adipiscing mauris non. ",
+    rate: 2.5,
+  },
+];
