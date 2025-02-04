@@ -6,7 +6,11 @@ import { popularProductDetails } from "../../data";
 import ArrowLeft from "../atoms/arrowLeft";
 import ArrowRight from "../atoms/arrowRight";
 
-const NextArrow = ({ onClick }: any) => {
+interface ArrowProps {
+  onClick?: () => void;
+}
+
+const NextArrow = ({ onClick }: ArrowProps) => {
   return (
     <div className="" onClick={onClick}>
       <ArrowRight />
@@ -14,7 +18,7 @@ const NextArrow = ({ onClick }: any) => {
   );
 };
 
-const PrevArrow = ({ onClick }: any) => {
+const PrevArrow = ({ onClick }: ArrowProps) => {
   return (
     <div className="" onClick={onClick}>
       <ArrowLeft />
