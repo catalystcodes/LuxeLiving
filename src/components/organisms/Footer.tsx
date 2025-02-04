@@ -2,7 +2,7 @@ import SubFooter from "./SubFooter";
 
 const Footer = () => {
   return (
-    <div className="flex justify-between mx-[5.5rem] py-[5.1rem]">
+    <div className="flex justify-between mx-[5.5rem] py-[5.1rem] footer">
       <div className="">
         <img src="/logo.svg" alt="" className="mb-9" />
         <p className="w-[28.1rem] font-medium">

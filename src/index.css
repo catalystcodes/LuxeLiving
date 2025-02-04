@@ -36,3 +36,12 @@ body {
 .slick-slide div {
   background-color: yellow;
 } */
+
+@media screen and (min-width: 480px) {
+  body {
+  }
+}
+
+.footer2 {
+  border-bottom: 0.1rem #f3f3f3 solid;
+}
