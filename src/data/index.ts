@@ -118,3 +118,36 @@ export const missionDetails = [
     desc: "The comprehensive guarantee is required for import, warehousing, transit, processing and specific use. ",
   },
 ];
+
+export const teamDetails = [
+  {
+    image: "/CEOImage.svg",
+    name: "Jesse Depp",
+    role: "Founder & CEO",
+  },
+  {
+    image: "/COOImage.svg",
+    name: "Margareth Carter",
+    role: "COO",
+  },
+  {
+    image: "/DeveloperImage.svg",
+    name: "Andrew Taggart",
+    role: "Developer",
+  },
+  {
+    image: "/ManagerImage.svg",
+    name: "Grace Marie",
+    role: "Manager",
+  },
+  {
+    image: "/seniorDesignerImage.svg",
+    name: " Jesse Depp",
+    role: "Senior Designer",
+  },
+  {
+    image: "/MarkerImage.svg",
+    name: "Jesse Depp",
+    role: "Marketer",
+  },
+];

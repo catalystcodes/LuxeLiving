@@ -1,4 +1,5 @@
 import OurMission from "../components/organisms/OurMission";
+import OurTeam from "../components/organisms/OurTeam";
 
 const AboutUs = () => {
   return (
@@ -17,6 +18,7 @@ const AboutUs = () => {
         <img src="/videoPlayerBg.svg" alt="" />
       </div>
       <OurMission />
+      <OurTeam />
     </div>
   );
 };

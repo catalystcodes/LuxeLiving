@@ -16,7 +16,7 @@ const Services = () => {
       <div className="flex justify-center  ">
         <img src="/serviceImage1.svg" alt="" className="footer2  pb-[2.8rem]" />
       </div>
-      <div className=" flex flex-wrap mt-[2.8rem]  gap-x-7 gap-y-7">
+      <div className=" flex flex-wrap justify-center mt-[2.8rem]  gap-x-7 gap-y-7">
         {servicesDetails.map((service, index) => (
           <ServiceCard key={index} {...service} />
         ))}
