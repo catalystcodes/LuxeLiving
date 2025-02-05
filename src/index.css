@@ -37,8 +37,10 @@ body {
   background-color: yellow;
 } */
 
-@media screen and (min-width: 480px) {
-  body {
+@media only screen and (max-width: 640px) {
+  /* For mobile phones: */
+  :root {
+    font-size: 12px;
   }
 }
 

@@ -22,7 +22,7 @@ const Portfolio = () => {
       <div className="flex items-center justify-between ">
         <div className="bg-[url(/portfolioImage1.svg)] h-[35.1rem] w-[28.1rem] bg-contain bg-center"></div>
         <div className="flex flex-col gap-y-[1.7rem] ">
-          <div className="bg-[url(/portfolioImage2.svg)] h-[16.7rem] w-[39.2rem] bg-contain bg-center"></div>
+          {/* <div className="bg-[url(/portfolioImage2.svg)] h-[16.7rem] w-[39.2rem] bg-contain bg-center"></div> */}
 
           <div className="bg-[url(/portfolioImage3.svg)] h-[16.7rem] w-[39.2rem] bg-contain bg-center"></div>
         </div>

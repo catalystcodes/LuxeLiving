@@ -100,3 +100,21 @@ export const servicesDetails = [
     desc: "With Quality Materials and Modern Designs, we have Designs for all Tastes. we bring you World Class Designs.",
   },
 ];
+
+export const missionDetails = [
+  {
+    image: "/misson1.svg",
+    title: "24/7 Supports",
+    desc: "24/7 support means a support service that is provided 24 hours a day and 7 days a week. ",
+  },
+  {
+    image: "/misson2.svg",
+    title: "Free Consultation",
+    desc: "A free consultation is a one-on-one interaction or conversation given freely to share one's thoughts and discuss possible",
+  },
+  {
+    image: "/misson3.svg",
+    title: "Overall Guarantee",
+    desc: "The comprehensive guarantee is required for import, warehousing, transit, processing and specific use. ",
+  },
+];
