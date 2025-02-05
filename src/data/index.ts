@@ -151,3 +151,58 @@ export const teamDetails = [
     role: "Marketer",
   },
 ];
+
+export const TopHeadLines = [
+  {
+    image: "/dailyNewImage1.svg",
+
+    title: "Design Inspiration",
+    header: "Bedroom Design is the Most Personal...",
+    fullHeader: " Reflection of the Owner, Really?",
+    desc: "Is it true that the bedroom design is the most personal reflection of the owner? Many people believe that to be able to judge a person's... ",
+    fullDesc:
+      "Is it true that the bedroom design is the most personal reflection of the owner? Many people believe that to be able to judge a person's personality, it is enough to",
+    authorImage: "/authorImage1.svg",
+    authorName: "Jenny Agnes",
+    date: "Tuesday, 17 May 2022",
+  },
+  {
+    image: "/dailyNewImage2.svg",
+    title: "Tips and Trick",
+    header: "Create a non-monotonous and dynamic...",
+    fullHeader:
+      "Create a non-monotonous and dynamic interior atmosphere with these 9 variations of wall tiles",
+    desc: " Quoted from The Healthy Home Economist, a study in 1932 stated that color doesn't really have to be visible to have an effect.. ",
+    authorImage: "/authorImage2.svg",
+    authorName: "Juliana Athorn",
+    date: "Wednesday, 22 January 2022",
+  },
+];
+
+export const trendingTopicsDetails = [
+  {
+    image: "/public/treadingImage1.svg",
+    title: "Tips and Trick",
+    header: "Beautiful and Functional Home Terrace Decoration",
+    desc: "Home terrace decorations are part of every decoration or overall home design. Interiordesign.id – If by chance your house has enough space or space.",
+    authorName: "Morgan Goldberg",
+    authorImage: "",
+    date: "Friday, 1 April 2022",
+  },
+  {
+    image: "",
+    title: "",
+    desc: "",
+    authorName: "",
+    authorImage: "",
+    date: "",
+  },
+  {
+    image: "",
+    title: "",
+    desc: "",
+    authorName: "",
+    authorImage: "",
+    date: "",
+  },
+];
