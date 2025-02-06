@@ -181,28 +181,32 @@ export const TopHeadLines = [
 
 export const trendingTopicsDetails = [
   {
-    image: "/public/treadingImage1.svg",
+    image: "/treadingImage1.svg",
     title: "Tips and Trick",
     header: "Beautiful and Functional Home Terrace Decoration",
     desc: "Home terrace decorations are part of every decoration or overall home design. Interiordesign.id – If by chance your house has enough space or space.",
     authorName: "Morgan Goldberg",
-    authorImage: "",
+    authorImage: "/authorImage2.svg",
     date: "Friday, 1 April 2022",
   },
   {
-    image: "",
-    title: "",
-    desc: "",
-    authorName: "",
-    authorImage: "",
-    date: "",
+    image: "/treadingImage2.svg",
+    title: "Design Inspiration",
+    header:
+      "Modern Minimalist Home Design: Aesthetics of Modern Home Interiors",
+    desc: "Home terrace decorations are part of every decoration or overall home design. Interiordesign.id – If by chance your house has enough space or space.",
+    authorName: "Rizal Ahmad",
+    authorImage: "/authorImage1.svg",
+    date: "Wednesday, 17 March 2022",
   },
   {
-    image: "",
-    title: "",
-    desc: "",
-    authorName: "",
-    authorImage: "",
-    date: "",
+    image: "/treadingImage3.svg",
+    title: "Color Guide",
+    header:
+      "20+ Best Kitchen Paint Colors That Make Kitchen Spaces Look More Fun",
+    desc: "Home terrace decorations are part of every decoration or overall home design. Interiordesign.id – If by chance your house has enough space or space.",
+    authorName: "Filipus Pendi",
+    authorImage: "/authorImage2.svg",
+    date: "Saturday, 29 February 2022",
   },
 ];

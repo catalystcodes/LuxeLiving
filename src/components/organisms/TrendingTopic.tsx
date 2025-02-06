@@ -1,3 +1,6 @@
+import { trendingTopicsDetails } from "../../data";
+import TrendingTopicCard from "./TrendingTopicCard";
+
 const TrendingTopic = () => {
   return (
     <div>
@@ -14,6 +17,11 @@ const TrendingTopic = () => {
         <div className="py-3 px-5 border-[#ecebeb] border-2 ">
           <img src="/FIlter.svg" alt="" />
         </div>
+      </div>
+      <div className="flex flex-col gap-y-7">
+        {trendingTopicsDetails.map((item, index) => (
+          <TrendingTopicCard key={index} {...item} />
+        ))}
       </div>
     </div>
   );
