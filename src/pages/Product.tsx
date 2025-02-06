@@ -1,3 +1,4 @@
+import PagesNum from "../components/organisms/PagesNum";
 import TotalProduct from "../components/organisms/TotalProduct";
 
 const Product = () => {
@@ -10,6 +11,7 @@ const Product = () => {
       </p>
       <div className="mx-[5.5rem]">
         <TotalProduct />
+        <PagesNum />
       </div>
     </div>
   );
