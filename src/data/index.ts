@@ -210,3 +210,69 @@ export const trendingTopicsDetails = [
     date: "Saturday, 29 February 2022",
   },
 ];
+
+export const productDetails = [
+  {
+    image: "/productImage1.svg",
+    name: "Chair",
+    title: "White Aesthetic Chair",
+    desc: "Combination of wood and wool",
+    price: 63.47,
+  },
+  {
+    image: "/productImage2a.svg",
+    name: "Cupboard",
+    title: "Wooden Cupboard 3 Row",
+    desc: "Combination of wood and wool",
+    price: 79.88,
+  },
+  {
+    image: "/productImage3.svg",
+    name: "Chair",
+    title: "White Aesthetic Chair",
+    desc: "Combination of wood and wool",
+    price: 63.47,
+  },
+  {
+    image: "/productImage4.svg",
+    name: "Chair",
+    title: "WMinimalist Lounge Chair",
+    desc: "Combination of wood and wool",
+    price: 14.74,
+  },
+  {
+    image: "/productImage5.svg",
+    name: "Chair",
+    title: "White Aesthetic Chair",
+    desc: "Combination of wood and wool",
+    price: 63.47,
+  },
+  {
+    image: "/productImage6.svg",
+    name: "Chair",
+    title: "White Aesthetic Chair",
+    desc: "Combination of wood and wool",
+    price: 63.47,
+  },
+  {
+    image: "/productImage7.svg",
+    name: "Table",
+    title: "Working Desk Setup",
+    desc: "Combination of wood and wool",
+    price: 47.9,
+  },
+  {
+    image: "/productImage8.svg",
+    name: "Cupboard",
+    title: "Minimalist White Cuppboard",
+    desc: "Combination of wood and wool",
+    price: 40.73,
+  },
+  {
+    image: "/productImage9.svg",
+    name: "Table",
+    title: "Wooden Dining Table",
+    desc: "Combination of wood and wool",
+    price: 16.5,
+  },
+];
