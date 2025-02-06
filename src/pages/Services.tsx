@@ -1,6 +1,7 @@
 import AppButton from "../components/organisms/AppButton";
 import Portfolio from "../components/organisms/Portfolio";
 import ServiceCard from "../components/organisms/ServiceCard";
+import SubFooterMessage from "../components/organisms/SubFooterMessage";
 import { servicesDetails } from "../data";
 
 const Services = () => {
@@ -22,14 +23,13 @@ const Services = () => {
         ))}
       </div>
       <Portfolio />
-      <div
-        className="mt-[10rem] mb-[4.8rem] flex
-      items-center justify-between"
-      >
-        <p className=" text-[2.4rem] font-bold w-[21.9rem]">
-          Are you interested work with us?
-        </p>
-        <AppButton text="Let's Talk" image="/arrow-right.svg" />
+
+      <div className="mt-[10rem] mb-[4.8rem]">
+        <SubFooterMessage
+          message=" Are you interested work with us?"
+          text="Let's Talk"
+          w="21.9rem"
+        />
       </div>
     </div>
   );

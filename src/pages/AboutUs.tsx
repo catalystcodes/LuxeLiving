@@ -1,5 +1,6 @@
 import OurMission from "../components/organisms/OurMission";
 import OurTeam from "../components/organisms/OurTeam";
+import SubFooterMessage from "../components/organisms/SubFooterMessage";
 
 const AboutUs = () => {
   return (
@@ -19,6 +20,14 @@ const AboutUs = () => {
       </div>
       <OurMission />
       <OurTeam />
+      <div className="mt-[10rem] mb-[4.8rem]">
+        <SubFooterMessage
+          message="Are you interested work with us?"
+          text="Let’s Talk"
+          image="/arrow-right.svg"
+          w="21.9rem"
+        />
+      </div>
     </div>
   );
 };

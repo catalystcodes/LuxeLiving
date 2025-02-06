@@ -20,12 +20,6 @@ const OurTeam = () => {
           <OurTeamCard key={index} {...teamMember} />
         ))}
       </div>
-      <div className="mt-[10rem] mb-[4.8rem] flex justify-between items-center">
-        <p className="text-[2.4rem] font-bold w-[21.9rem]">
-          Are you interested work with us?
-        </p>
-        <AppButton text="Let’s Talk" image="/arrow-right.svg" />
-      </div>
     </div>
   );
 };

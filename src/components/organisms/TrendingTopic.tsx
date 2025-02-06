@@ -23,6 +23,9 @@ const TrendingTopic = () => {
           <TrendingTopicCard key={index} {...item} />
         ))}
       </div>
+      <div className="flex justify-center mt-12 mb-44">
+        <img src="/loadMore.svg" alt="" />
+      </div>
     </div>
   );
 };
