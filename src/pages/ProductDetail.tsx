@@ -12,7 +12,7 @@ const ProductDetail = () => {
   }
 
   return (
-    <div className="mx-[5.5rem] mt-[5.5rem] ">
+    <div className="mx-[5.5rem] mt-[5.5rem]  ">
       <div className="flex items-center gap-x-12 mb-[2.8rem]">
         <img src={product.image} alt={product.name} className="h-[33.3rem]" />
         <div>

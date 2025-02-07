@@ -13,7 +13,7 @@ const TotalProduct = () => {
         </div>
         <img src="/sortByImage .svg" alt="" />
       </div>
-      <div className="flex justify-center flex-wrap gap-x-[1.7rem] gap-y-[1.7rem] mb-[4.4rem]">
+      <div className="flex justify-center flex-wrap gap-x-[1.7rem] gap-y-[1.7rem] mb-[4.4rem] bg-amber-500">
         {productDetails.map((product) => (
           <OurProductCard key={product.id} {...product} />
         ))}

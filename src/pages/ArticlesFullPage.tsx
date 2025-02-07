@@ -1,8 +1,11 @@
 import { useParams } from "react-router-dom";
 
-import { TopHeadLines } from "../data";
+import { TopHeadLines, similarTopicDetails } from "../data";
 import ArticlesContents from "../components/organisms/ArticlesContents";
 import ArticlesContents2 from "../components/organisms/ArticlesContents2";
+import SimilarTopics from "../components/organisms/SimilarTopics";
+import SubFooter from "../components/organisms/SubFooter";
+import SubFooterMessage from "../components/organisms/SubFooterMessage";
 const ArticlesFullPage = () => {
   const { articleId } = useParams<{ articleId: string }>();
   const article = TopHeadLines.find((a) => a.id === articleId);
@@ -24,6 +27,22 @@ const ArticlesFullPage = () => {
       <div>
         <ArticlesContents />
         <ArticlesContents2 />
+      </div>
+      <p className="text-[#FFB23F] font-bold text-center">Similar Topics</p>
+      <p className="text-center font-bold text-[2.4rem] mb-[2.8rem]">
+        Maybe you’re interested
+      </p>
+      <div className="flex justify-center gap-x-7 mb-[10rem]">
+        {similarTopicDetails.map((article) => (
+          <SimilarTopics key={article.id} {...article} />
+        ))}
+      </div>
+      <div className="mb-[3.7rem]">
+        <SubFooterMessage
+          message="Subscribe our newsletter"
+          text="Let's Talk"
+          image="/arrow-right.svg"
+        />
       </div>
     </div>
   );
