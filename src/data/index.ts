@@ -154,11 +154,13 @@ export const teamDetails = [
 
 export const TopHeadLines = [
   {
+    id: "1",
     image: "/dailyNewImage1.svg",
 
     title: "Design Inspiration",
     header: "Bedroom Design is the Most Personal...",
-    fullHeader: " Reflection of the Owner, Really?",
+    fullHeader:
+      "Bedroom Design is the Most Personal Reflection of the Owner, Really?",
     desc: "Is it true that the bedroom design is the most personal reflection of the owner? Many people believe that to be able to judge a person's... ",
     fullDesc:
       "Is it true that the bedroom design is the most personal reflection of the owner? Many people believe that to be able to judge a person's personality, it is enough to",
@@ -167,6 +169,7 @@ export const TopHeadLines = [
     date: "Tuesday, 17 May 2022",
   },
   {
+    id: "2",
     image: "/dailyNewImage2.svg",
     title: "Tips and Trick",
     header: "Create a non-monotonous and dynamic...",
@@ -238,11 +241,62 @@ export const productDetails = [
   },
   {
     image: "/productImage4.svg",
-    name: "Chair",
-    title: "WMinimalist Lounge Chair",
+    name: "Table",
+    title: "Working Desk Setup",
     desc: "Combination of wood and wool",
     price: 14.74,
     id: "4",
+  },
+  {
+    image: "/productImage5.svg",
+    name: "Cupboard",
+    title: "Minimalist White Cupboard",
+    desc: "Combination of wood and wool",
+    price: 63.47,
+    id: "5",
+  },
+  {
+    image: "/productImage6.svg",
+    name: "Table",
+    title: "Wooden Dining Table",
+    desc: "Combination of wood and wool",
+    price: 63.47,
+    id: "6",
+  },
+  {
+    image: "/productImage7.svg",
+    name: "Decoration",
+    title: "White Minimalist Vase",
+    desc: "Combination of wood and wool",
+    price: 47.9,
+    id: "7",
+  },
+  {
+    image: "/productImage8.svg",
+    name: "Decoration",
+    title: "Plant With Clay Stand",
+    desc: "Combination of wood and wool",
+    price: 40.73,
+    id: "8",
+  },
+  {
+    image: "/productImage9.svg",
+    name: "Decoration",
+    title: "Oval Gold Mirror",
+    desc: "Combination of wood and wool",
+    price: 16.5,
+    id: "9",
+  },
+];
+
+export const relatedItemDetails = [
+  {
+    image: "/productImage7.svg",
+    name: "Table",
+    title: "Working Desk Setup",
+    desc: "Combination of wood and wool",
+    price: 47.9,
+    id: "7",
   },
   {
     image: "/productImage5.svg",
@@ -259,29 +313,5 @@ export const productDetails = [
     desc: "Combination of wood and wool",
     price: 63.47,
     id: "6",
-  },
-  {
-    image: "/productImage7.svg",
-    name: "Table",
-    title: "Working Desk Setup",
-    desc: "Combination of wood and wool",
-    price: 47.9,
-    id: "7",
-  },
-  {
-    image: "/productImage8.svg",
-    name: "Cupboard",
-    title: "Minimalist White Cuppboard",
-    desc: "Combination of wood and wool",
-    price: 40.73,
-    id: "8",
-  },
-  {
-    image: "/productImage9.svg",
-    name: "Table",
-    title: "Wooden Dining Table",
-    desc: "Combination of wood and wool",
-    price: 16.5,
-    id: "9",
   },
 ];

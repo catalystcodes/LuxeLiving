@@ -1,3 +1,5 @@
+import { useNavigate } from "react-router-dom";
+
 interface DailyNewCardProps {
   image: string;
   title: string;
@@ -6,6 +8,7 @@ interface DailyNewCardProps {
   authorImage: string;
   authorName: string;
   date: string;
+  id: string;
 }
 
 const DailyNewCard = ({
@@ -16,9 +19,15 @@ const DailyNewCard = ({
   authorName,
   date,
   image,
+  id,
 }: DailyNewCardProps) => {
+  const navigate = useNavigate();
+  const handleClick = () => {
+    navigate(`/articles/${id}`);
+  };
+
   return (
-    <div>
+    <div className="cursor-pointer " onClick={handleClick}>
       <img src={image} alt="image" />
       <p className="font-medium text-[#AFADB5] mt-[1.1rem] mb-[0.6rem]">
         {title}

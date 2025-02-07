@@ -7,6 +7,7 @@ import Footer from "../organisms/Footer";
 import Services from "../../pages/Services";
 import Home from "../../pages/Home";
 import ProductDetail from "../../pages/ProductDetail";
+import ArticlesFullPage from "../../pages/ArticlesFullPage";
 
 const AppRoute = () => {
   return (
@@ -15,12 +16,12 @@ const AppRoute = () => {
       <main>
         <Routes>
           <Route path="/" element={<Home />} />
-
           <Route path="/services" element={<Services />} />
           <Route path="/product" element={<Product />} />
           <Route path="/articles" element={<Articles />} />
           <Route path="/about-us" element={<AboutUs />} />
           <Route path="/product/:productId" element={<ProductDetail />} />
+          <Route path="/articles/:articleId" element={<ArticlesFullPage />} />
         </Routes>
       </main>
       <Footer />
