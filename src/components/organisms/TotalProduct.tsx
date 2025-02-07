@@ -14,8 +14,8 @@ const TotalProduct = () => {
         <img src="/sortByImage .svg" alt="" />
       </div>
       <div className="flex justify-center flex-wrap gap-x-[1.7rem] gap-y-[1.7rem] mb-[4.4rem]">
-        {productDetails.map((product, index) => (
-          <OurProductCard key={index} {...product} />
+        {productDetails.map((product) => (
+          <OurProductCard key={product.id} {...product} />
         ))}
       </div>
     </div>

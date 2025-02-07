@@ -218,6 +218,7 @@ export const productDetails = [
     title: "White Aesthetic Chair",
     desc: "Combination of wood and wool",
     price: 63.47,
+    id: "1",
   },
   {
     image: "/productImage2a.svg",
@@ -225,6 +226,7 @@ export const productDetails = [
     title: "Wooden Cupboard 3 Row",
     desc: "Combination of wood and wool",
     price: 79.88,
+    id: "2",
   },
   {
     image: "/productImage3.svg",
@@ -232,6 +234,7 @@ export const productDetails = [
     title: "White Aesthetic Chair",
     desc: "Combination of wood and wool",
     price: 63.47,
+    id: "3",
   },
   {
     image: "/productImage4.svg",
@@ -239,6 +242,7 @@ export const productDetails = [
     title: "WMinimalist Lounge Chair",
     desc: "Combination of wood and wool",
     price: 14.74,
+    id: "4",
   },
   {
     image: "/productImage5.svg",
@@ -246,6 +250,7 @@ export const productDetails = [
     title: "White Aesthetic Chair",
     desc: "Combination of wood and wool",
     price: 63.47,
+    id: "5",
   },
   {
     image: "/productImage6.svg",
@@ -253,6 +258,7 @@ export const productDetails = [
     title: "White Aesthetic Chair",
     desc: "Combination of wood and wool",
     price: 63.47,
+    id: "6",
   },
   {
     image: "/productImage7.svg",
@@ -260,6 +266,7 @@ export const productDetails = [
     title: "Working Desk Setup",
     desc: "Combination of wood and wool",
     price: 47.9,
+    id: "7",
   },
   {
     image: "/productImage8.svg",
@@ -267,6 +274,7 @@ export const productDetails = [
     title: "Minimalist White Cuppboard",
     desc: "Combination of wood and wool",
     price: 40.73,
+    id: "8",
   },
   {
     image: "/productImage9.svg",
@@ -274,5 +282,6 @@ export const productDetails = [
     title: "Wooden Dining Table",
     desc: "Combination of wood and wool",
     price: 16.5,
+    id: "9",
   },
 ];
