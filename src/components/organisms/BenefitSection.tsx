@@ -5,8 +5,8 @@ const BenefitSection = () => {
   return (
     <section className="mx-[5.5rem] mb-[10rem]">
       <p className="mb-[0.8rem] font-bold text-[#FFB23F]">Benefits</p>
-      <div className="flex items-end justify-between mb-[2.8rem]">
-        <p className="text-[2.4rem] font-bold w-[23.7rem]">
+      <div className="flex items-end justify-between mb-[2.8rem] ">
+        <p className="min-w-[12..9rem] text-[2.4rem] font-bold w-[23.7rem]">
           Benefits when using our services
         </p>
         <p className="text-[#AFADB5] font-medium w-[28.1rem]">

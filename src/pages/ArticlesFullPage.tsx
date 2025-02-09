@@ -4,7 +4,7 @@ import { TopHeadLines, similarTopicDetails } from "../data";
 import ArticlesContents from "../components/organisms/ArticlesContents";
 import ArticlesContents2 from "../components/organisms/ArticlesContents2";
 import SimilarTopics from "../components/organisms/SimilarTopics";
-import SubFooter from "../components/organisms/SubFooter";
+
 import SubFooterMessage from "../components/organisms/SubFooterMessage";
 const ArticlesFullPage = () => {
   const { articleId } = useParams<{ articleId: string }>();

@@ -16,6 +16,12 @@ body {
 :root {
   font-size: 18px;
 }
+
+@theme {
+  /* --breakpoint-sm-: 375px; */
+  --breakpoint-sm: 375px;
+}
+
 /* .slick-list {
   display: flex !important;
   justify-content: center;

@@ -3,6 +3,19 @@ import OurTeam from "../components/organisms/OurTeam";
 import SubFooterMessage from "../components/organisms/SubFooterMessage";
 
 const AboutUs = () => {
+  const YouTubeEmbed = ({ videoId }: any) => {
+    return (
+      <iframe
+        width="100%"
+        height="100%"
+        src={`https://www.youtube.com/embed/${videoId}`}
+        frameBorder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowFullScreen
+        title="Embedded YouTube video"
+      />
+    );
+  };
   return (
     <div className="mx-[5.5rem]">
       <p className="mt-[5.5rem] text-center font-bold text-[3.6rem]">
@@ -15,8 +28,8 @@ const AboutUs = () => {
       {/* <div className="flex justify-center">
         <div className=" bg-[url(/videoPlayerBg.svg)] h-[30.6rem] w-[68.9rem]"></div>
       </div> */}
-      <div className="flex justify-center mb-[10rem]">
-        <img src="/videoPlayerBg.svg" alt="" />
+      <div className="flex justify-center mb-[10rem] h-[30.6rem] w-[68.9rem] m-auto ">
+        <YouTubeEmbed videoId="fxTcO_4abyg" />
       </div>
       <OurMission />
       <OurTeam />
