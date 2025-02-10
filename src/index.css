@@ -17,6 +17,13 @@ body {
   font-size: 18px;
 }
 
+@media only screen and (max-width: 640px) {
+  /* For mobile phones: */
+  :root {
+    font-size: 12px;
+  }
+}
+
 @theme {
   /* --breakpoint-sm-: 375px; */
   --breakpoint-sm: 375px;
