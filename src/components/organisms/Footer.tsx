@@ -6,7 +6,7 @@ const Footer = () => {
       <div className="">
         <div>
           <img src="/logo.svg" alt="" className="md:mb-9 hidden md:block" />{" "}
-          <img src="/logoSm.svg" alt="" className="mb-[1.1rem]" />
+          <img src="/logoSm.svg" alt="" className="mb-[1.1rem] md:hidden" />
         </div>
         <p className="text-[#AFADB5] md:text-black md:w-[28.1rem] font-medium">
           Lalasia is digital agency that help you make better experience iaculis

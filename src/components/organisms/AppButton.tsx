@@ -12,7 +12,7 @@ const AppButton = ({
 }: AppButtonProps) => {
   return (
     <button
-      className="flex items-center gap-x-[1rem] py-[0.8rem] px-[2.6rem]"
+      className="flex items-center gap-x-[1rem] py-[0.8rem] px-[2.6rem] cursor-pointer"
       style={{ backgroundColor }}
     >
       <p className="font-bold" style={{ color: textColor }}>

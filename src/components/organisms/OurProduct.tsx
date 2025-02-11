@@ -7,7 +7,7 @@ const OurProduct = () => {
       <div className="flex justify-between items-end   ">
         <div className="md:w-[28.4rem]">
           <p className="mb-[0.8rem] font-bold text-[#FFB23F] ">Our Product</p>
-          <p className="font-bold md:text-[2.4rem] text-[1.3rem] w-[15.5rem]">
+          <p className="font-bold md:text-[2.4rem] text-[1.3rem] w-[15.5rem] md:w-[28.4rem] ">
             Crafted by talented and high quality material
           </p>
         </div>
@@ -30,13 +30,13 @@ const OurProduct = () => {
           </div>
           <div>
             <img src="/productImage2.svg" alt="" className="md:block hidden" />
-            <img src="/ourProductSm1.svg" alt="" />
+            <img src="/ourProductSm1.svg" alt="" className="md:hidden" />
           </div>
         </div>
         <div className="md:hidden py-2.5"></div>
         <div>
           <img src="/productPics.svg" alt="" className="md:block hidden" />
-          <img src="/OurProductSm2.svg" alt="" />
+          <img src="/OurProductSm2.svg" alt="" className="md:hidden" />
         </div>
       </div>
       <div>
