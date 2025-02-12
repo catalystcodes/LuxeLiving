@@ -13,11 +13,11 @@ const Services = () => {
         The product crafted by talented crafter and using high quality material
         with love inside
       </p>
-      <div className="flex justify-center  ">
+      <div className="flex justify-center mb-[5.6rem] md:mb-0">
         <img
           src="/serviceImage1.svg"
           alt=""
-          className="border-b-[.1rem]  border-[#f3f3f3] md:pb-[2.8rem]"
+          className="md:border-b-[.1rem]  md:border-[#f3f3f3] md:pb-[2.8rem]"
         />
       </div>
       <div className=" flex flex-wrap justify-center mt-[2.8rem]  gap-x-7 gap-y-7">
@@ -27,11 +27,12 @@ const Services = () => {
       </div>
       <Portfolio />
 
-      <div className="mt-[10rem] mb-[4.8rem]">
+      <div className="md:mt-[10rem] md:mb-[4.8rem] mt-[5.6rem] ">
         <SubFooterMessage
           message=" Are you interested work with us?"
-          text="Let's Talk"
-          w="21.9rem"
+          text="Learn More"
+          w="11.9rem"
+          image="/arrow-right.svg"
         />
       </div>
     </div>
