@@ -323,6 +323,8 @@ export const similarTopicDetails = [
   {
     image: "/similarTopicImage1.svg",
     header: "Create a non-monotonous...",
+    fullHeader:
+      "Create a non-monotonous and dynamic interior atmosphere with these 9 variations of wall tiles",
     desc: "Quoted from The Healthy Home Economist, a study in 1932 stated that color doesn't really...",
     authorName: "Jenny Agnes",
     authorImage: "/author1.svg",
@@ -333,6 +335,8 @@ export const similarTopicDetails = [
   {
     image: "/similarTopicImage2.svg",
     header: "Create a non-monotonous...",
+    fullHeader:
+      "20+ Best Kitchen Paint Colors That Make Kitchen Spaces Look More Fun",
     desc: "Quoted from The Healthy Home Economist, a study in 1932 stated that color doesn't really...",
     authorName: "Jenny Agnes",
     authorImage: "/author2.svg",
@@ -343,6 +347,8 @@ export const similarTopicDetails = [
   {
     image: "/similarTopicImage3.svg",
     header: "Modern Minimalist Home...",
+    fullHeader:
+      "Modern Minimalist Home Design: Aesthetics of Modern Home Interiors",
     desc: "Quoted from The Healthy Home Economist, a study in 1932 stated that color doesn't really...",
     authorName: "Rizal Ahmad",
     authorImage: "/author3.svg",

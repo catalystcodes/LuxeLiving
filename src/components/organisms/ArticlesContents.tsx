@@ -1,8 +1,8 @@
 const ArticlesContents = () => {
   return (
     <div className="mt-[2.8rem]">
-      <div className="flex justify-center gap-x-[1.7rem] ">
-        <p className="w-[33.6rem] font-medium text-[#AFADB5]">
+      <div className="flex flex-col md:flex-row md:justify-center md:gap-x-[1.7rem] gap-y-[1.7rem] ">
+        <p className="md:w-[33.6rem] font-medium text-[#AFADB5]">
           Commodo sodales at eget id dignissim amet consectetur adipiscing elit.
           At cursus magna libero turpis scelerisque tristique scelerisque mi.
           Sed nunc auctor faucibus vitae. Gravida erat nisi sed vulputate sed
@@ -16,7 +16,7 @@ const ArticlesContents = () => {
           nunc sed tellus eget feugiat ultricies purus. Consectetur sollicitudin
           id eget facilisis hendrerit nibh.
         </p>
-        <p className="w-[33.6rem] font-medium text-[#AFADB5]">
+        <p className="md:w-[33.6rem] font-medium text-[#AFADB5]">
           Faucibus facilisi morbi pharetra quis sed. Vitae suspendisse facilisis
           facilisis ligula felis et a parturient aenean. Ac maecenas ultricies
           felis risus scelerisque duis posuere. Lectus tellus montes, ac sed
@@ -32,8 +32,8 @@ const ArticlesContents = () => {
           fames habitasse sagittis, dui tellus.
         </p>
       </div>
-      <div className="flex justify-center gap-x-[1.7rem]">
-        <p className="w-[33.6rem] font-medium text-[#AFADB5]">
+      <div className="flex  flex-col md:flex-row md:justify-center md:gap-x-[1.7rem]">
+        <p className="md:w-[33.6rem] font-medium text-[#AFADB5]">
           Nisi quam mi est et et. Lectus sed imperdiet non vestibulum volutpat
           tellus odio aliquam. Eu rutrum tincidunt risus felis sagittis,
           consequat, iaculis tortor bibendum. At nisl, diam a sagittis nulla nec
@@ -54,9 +54,9 @@ const ArticlesContents = () => {
           <img
             src="/articuleImage.svg"
             alt=""
-            className="w-[33.6rem] h-[26.7rem] mt-[1.7rem]"
+            className="w-[33.6rem] h-[26.7rem] md:mt-[1.7rem]"
           />
-          <p className="flex justify-end mt-[0.6rem] text-[0.8rem] font-medium text-[#AFADB5]">
+          <p className=" justify-end mt-[0.6rem] text-[0.8rem] font-medium text-[#AFADB5] hidden md:flex">
             photography from unsplash
           </p>
         </div>

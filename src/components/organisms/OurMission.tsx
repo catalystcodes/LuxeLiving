@@ -13,15 +13,15 @@ const OurMission = () => {
         </p>
         <div className="flex gap-x-[2.8rem]">
           <div className="flex flex-col gap-y-[0.6rem]">
-            <p className="font-bold md:text-[2.4rem]text-[1.3rem]">20+</p>
+            <p className="font-bold md:text-[2.4rem] text-[1.3rem]">20+</p>
             <p className="font-medium text-[#AFADB5]">Years Experience</p>
           </div>{" "}
           <div className="flex flex-col gap-y-[0.6rem]">
-            <p className="font-bold md:text-[2.4rem]text-[1.3rem]">483</p>
+            <p className="font-bold md:text-[2.4rem] text-[1.3rem]">483</p>
             <p className="font-medium text-[#AFADB5]">Happy Client</p>
           </div>{" "}
           <div className="flex flex-col gap-y-[0.6rem]">
-            <p className="font-bold md:text-[2.4rem]text-[1.3rem]">150+</p>
+            <p className="font-bold md:text-[2.4rem] text-[1.3rem]">150+</p>
             <p className="font-medium text-[#AFADB5]">Project Finished</p>
           </div>
         </div>

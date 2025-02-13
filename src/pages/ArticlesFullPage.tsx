@@ -14,14 +14,14 @@ const ArticlesFullPage = () => {
     return <div>Article not found</div>;
   }
   return (
-    <div className="px-[5.5rem]">
-      <p className="text-center font-bold text-[3.6rem] w-[63.7rem] m-auto mt-[5.5rem] mb-[1.1rem]">
+    <div className="md:px-[5.5rem] mx-[1.3rem]">
+      <p className="text-center font-bold md:text-[3.6rem] md:w-[63.7rem] m-auto mt-[5.5rem] mb-[1.1rem]">
         {article.fullHeader}
       </p>
-      <p className="text-[#AFADB5] text-center font-medium w-[47.2rem] m-auto mb-[2.6rem]">
+      <p className="text-[#AFADB5] text-center font-medium md:w-[47.2rem] m-auto md:mb-[2.6rem]">
         {article.fullDesc}
       </p>
-      <div className="w-[68.9rem] h-[30.6rem] m-auto">
+      <div className="md:w-[68.9rem] md:h-[30.6rem] m-auto">
         <img src={article.image} alt="" className="w-full h-full " />
       </div>
       <div>
@@ -29,10 +29,10 @@ const ArticlesFullPage = () => {
         <ArticlesContents2 />
       </div>
       <p className="text-[#FFB23F] font-bold text-center">Similar Topics</p>
-      <p className="text-center font-bold text-[2.4rem] mb-[2.8rem]">
+      <p className="text-center font-bold md:text-[2.4rem] md:mb-[2.8rem] mb-[2.8rem] text-[1.2rem]">
         Maybe you’re interested
       </p>
-      <div className="flex justify-center gap-x-7 mb-[10rem]">
+      <div className="flex flex-col md:flex-row justify-center gap-x-7 mb-[10rem] gap-y-5">
         {similarTopicDetails.map((article) => (
           <SimilarTopics key={article.id} {...article} />
         ))}
