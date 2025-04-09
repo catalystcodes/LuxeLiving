@@ -26,7 +26,7 @@ const VideoPlayer: React.FC<VideoPlayerProps> = ({
 
     if (videoRef.current && cloudinaryRef.current) {
       playerRef.current = cloudinaryRef.current.videoPlayer(videoRef.current, {
-        cloud_name: process.env.REACT_APP_CLOUDINARY_CLOUD_NAME,
+        cloud_name: import.meta.env.VITE_CLOUDINARY_CLOUD_NAME,
         secure: true,
       });
     }
